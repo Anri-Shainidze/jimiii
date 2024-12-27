@@ -15,7 +15,7 @@ const newyear = students.map(
     student => {
     const newAge = student.age + 1;
     const status = newAge < 18 ? "arasrulwlovani" : "srulwlovani";
-    
+
     return {
          ...student, age: newAge, status: status 
         };
@@ -37,7 +37,7 @@ const products = [
 ];
 
 
-const filteredProducts = products.filter(
+const filterPro = products.filter(
     product => 
     product.category === "electronics" && product.price > 80
 );
