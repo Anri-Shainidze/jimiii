@@ -42,4 +42,5 @@ const filterPro = products.filter(
     product.category === "electronics" && product.price > 80
 );
 
+console.log(filterPro)
 //vegar gavagrdzele sashualo ro shevkribo
